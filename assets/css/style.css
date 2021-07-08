@@ -43,7 +43,40 @@ body {
     flex-direction: column-reverse;
 }
 
-/*  */
+/* Header */
+
+.header {
+    min-height: 95vh;
+}
+
+.back-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    
+    background-image: url(../images/backgroundHero.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    /* Advanced */
+    background-attachment: fixed;
+    transform: translateZ(0);
+}
+
+.header-content {
+    color: white;
+}
+
+.phone-group {
+    margin-top: -15%;
+
+    position: relative;
+    z-index: 1;
+}
+
+/* Main */
 
 .hr-line {
     max-width: 70%;
